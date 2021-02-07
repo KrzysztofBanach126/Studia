@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void funkcja (string final_array[], int size, string input, int m)
+void function (string final_array[], int size, string input, int m)
 {
 	
 	int suma=0;
@@ -68,7 +68,7 @@ int main ()
 	{
 		cin>>wyraz;
 		rozmiar=wyraz.size();
-		funkcja (tablica, rozmiar, wyraz, M);
+		function (tablica, rozmiar, wyraz, M);
 	}
 	cout<<"Wynikowa tablica:"<<endl;
 	for(int i=0; i<M; ++i)
