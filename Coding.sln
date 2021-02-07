@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SondowanieLinioweSzukanie",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KodowanieUzycieTablicy", "KodowanieUzycieTablicy\KodowanieUzycieTablicy.vcxproj", "{D5A81200-89C2-45FE-9657-56D2B182CAD4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecimalToBinary", "DecimalToBinary\DecimalToBinary.vcxproj", "{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{D5A81200-89C2-45FE-9657-56D2B182CAD4}.Release|x64.Build.0 = Release|x64
 		{D5A81200-89C2-45FE-9657-56D2B182CAD4}.Release|x86.ActiveCfg = Release|Win32
 		{D5A81200-89C2-45FE-9657-56D2B182CAD4}.Release|x86.Build.0 = Release|Win32
+		{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}.Debug|x64.ActiveCfg = Debug|x64
+		{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}.Debug|x64.Build.0 = Debug|x64
+		{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}.Debug|x86.ActiveCfg = Debug|Win32
+		{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}.Debug|x86.Build.0 = Debug|Win32
+		{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}.Release|x64.ActiveCfg = Release|x64
+		{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}.Release|x64.Build.0 = Release|x64
+		{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}.Release|x86.ActiveCfg = Release|Win32
+		{45C46B2E-3BA8-486B-A0C6-7C8A5E61A22C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
