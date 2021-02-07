@@ -3,19 +3,19 @@
 using namespace std;
 int main()
 {
-    int liczba, bit_prawy, bit_lewy;
-    unsigned int maska_lewa = 1 << 31;
-    unsigned int maska_prawa = 1;
+    int number, right_bit, left_bit;
+    unsigned int left_mask = 1 << 31;
+    unsigned int right_mask = 1;
     cout << "Liczba = ";
-    cin >> liczba;
+    cin >> number;
     for (int i = 0; i < 32; ++i)
     {
-        bit_prawy = (liczba & maska_prawa << i);
-        bit_lewy = (liczba & maska_lewa >> i);
+        right_bit = (number & right_mask << i);
+        left_bit = (number & left_mask >> i);
     }
     //cout<<"Bit prawy = "<<bit_prawy<<endl;
     //cout<<"Bit lewy = "<<bit_lewy<<endl;
-    if (bit_lewy == bit_prawy)
+    if (left_bit == right_bit)
         cout << "To jest palindrom!";
     else
         cout << "To nie jest palindrom!";
